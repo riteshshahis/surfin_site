@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* $ heading fone stuff */
+/* $heading-font:from google name*/
+.navbar {
+  border: 2px solid black;
+  background-color: #00C0FE;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: "Risque", cursive;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.navbar__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin-right: 100px;
+}
+.navbar__text h1 {
+  font-size: 28px;
+  padding-bottom: 5px;
+}
+.navbar__text h3 {
+  font-size: 20px;
+}
+.navbar__menu {
+  display: flex;
+  justify-content: start;
+  height: 100%;
+  margin-right: 100px;
+}
+
+body {
+  background-image: url("./desktopWave.png");
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 70%;
+  border: 2px solid white;
+  background-color: #88c0c4;
+  margin-top: 40px;
+  border-radius: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information p {
+  padding: 70px 20px 20px 20px;
+  color: white;
+}
+.information__contact {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 300px;
+  color: white;
+}
+.information__contact .mail {
+  padding-left: 40px;
+}
+.information h2 {
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.information__package1 {
+  display: flex;
+  justify-content: center;
+}
+.information__package1 p {
+  color: white;
+  text-align: center;
+}

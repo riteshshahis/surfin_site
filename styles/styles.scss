@@ -1,0 +1,103 @@
+@import '../styles/_resets.scss';
+@import '../styles/typography';
+@import '../styles/variables';
+
+
+
+.navbar {
+border: 2px solid black;
+background-color: #00C0FE;
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: center;
+font-family: $risque;
+font-weight: bold;
+margin-bottom:30px;
+
+&__text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin-right: 100px;
+
+    h1 {
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+&__menu{
+    display: flex;
+    justify-content: start;    
+    height: 100%;
+    margin-right: 100px; //space between menu and header
+}
+
+}
+
+body {
+    background-image: url("./desktopWave.png"); // why you no work?
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    margin-top: 100px; // Margin away from the Nav bar
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 70%;
+    border: 2px solid white;
+    background-color: #88c0c4;
+    margin-top: 40px;
+    border-radius: 45%;
+    margin-left: auto; // centres block when used with right
+    margin-right: auto; // centres block when used with left
+
+    p {
+        padding: 70px 20px 20px 20px ;
+        color: $secondary;    
+    }
+
+    &__contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 300px;
+        color: $secondary;    
+
+        .mail {
+            padding-left: 40px;
+            // add a mail link or page
+        }
+    }
+
+    h2 {
+        padding: 10px;
+        color: $secondary;
+        text-align: center;
+    }
+
+    &__package1 {
+        display: flex;
+        justify-content: center;
+
+        p {
+            color: $secondary;
+            text-align: center;    
+        }
+    }
+}
+
+

@@ -7,7 +7,7 @@
 /* $ heading fone stuff */
 /* $heading-font:from google name*/
 body {
-  background-image: url(/styles/desktopWave.png);
+  background-image: url(../styles/desktopWave.png);
   background-size: contain;
   background-position: bottom;
   font-family: "Risque", cursive;
@@ -53,7 +53,7 @@ body {
   border: 1px solid black;
   display: none;
   display: block;
-  background-image: url(/styles/menuDropDown-mobile.png);
+  background-image: url(../styles/menuDropDown-mobile.png);
   background-size: cover;
   background-position: center;
   height: 150px;
@@ -135,7 +135,7 @@ body {
     border: 1px solid black;
     display: none;
     display: block;
-    background-image: url(/styles/menuDropDown.png.png);
+    background-image: url(../styles/menuDropDown.png.png);
     background-size: cover;
     background-position: center;
     height: 200px;

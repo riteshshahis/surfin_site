@@ -4,7 +4,7 @@
 
 
 body {
-    background-image: url(/styles/desktopWave.png);
+    background-image: url(../styles/desktopWave.png);
     background-position:bottom;
     color: $secondary;
     background-size: 120% 90%;
@@ -55,7 +55,7 @@ body {
             border: 1px solid black;
             display: none;
             display: block;
-            background-image: url(/styles/menuDropDown-mobile.png);
+            background-image: url(../styles/menuDropDown-mobile.png);
             background-size: cover;
             background-position: center;
             height: 150px;
@@ -229,7 +229,7 @@ margin-bottom:30px;
         border: 1px solid black;
         display: none;
         display: block;
-        background-image: url(/styles/menuDropDown.png.png); // why you no work?
+        background-image: url(../styles/menuDropDown.png.png); // why you no work?
          background-size: cover;
         background-position: center;
         height: 200px;

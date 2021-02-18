@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* $ heading fone stuff */
+/* $heading-font:from google name*/
+body {
+  background-image: url(/styles/desktopWave.png);
+  background-size: contain;
+  background-position: bottom;
+  font-family: "Risque", cursive;
+  background-size: 120% 90%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  color: cadetblue;
+  display: flex;
+  justify-content: center;
+  font-family: "Risque", cursive;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.navbar__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.navbar__text h1 {
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: black;
+}
+.navbar__text h3 {
+  font-size: 10px;
+  color: black;
+}
+.navbar__menu {
+  display: flex;
+  justify-content: start;
+  height: 100%;
+}
+.navbar__menu:hover {
+  opacity: 1;
+  color: black;
+  border: 1px solid black;
+  display: none;
+  display: block;
+  background-image: url(/styles/menuDropDown-mobile.png);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 100px;
+}
+
+.gallery {
+  height: 800px;
+  width: 80%;
+  border: 2px solid white;
+  background-color: #88c0c4;
+  margin-top: 40px;
+  border-radius: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.gallery h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+.gallery h2 {
+  text-align: center;
+}
+.gallery__images {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-top: 50px;
+}
+.gallery__images > img {
+  margin: auto;
+  width: 75px;
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 30%;
+}
+
+@media screen and (min-width: 550px) {
+  .navbar {
+    border: 2px solid black;
+    background-color: #88c0c4;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Risque", cursive;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .navbar__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin-right: 100px;
+  }
+  .navbar__text h1 {
+    font-size: 28px;
+    padding-bottom: 5px;
+  }
+  .navbar__text h3 {
+    font-size: 20px;
+    color: black;
+  }
+  .navbar__menu {
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    margin-right: 100px;
+  }
+  .navbar__menu:hover {
+    opacity: 1;
+    color: black;
+    border: 1px solid black;
+    display: none;
+    display: block;
+    background-image: url(/styles/menuDropDown.png.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 180px;
+  }
+
+  .gallery {
+    height: 1000px;
+    width: 80%;
+    border: 2px solid white;
+    background-color: #88c0c4;
+    margin-top: 40px;
+    border-radius: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  .gallery h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100px;
+  }
+  .gallery h2 {
+    text-align: center;
+  }
+  .gallery__images {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 50px;
+  }
+  .gallery__images > img {
+    margin: auto;
+    width: 100px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 30%;
+  }
+}

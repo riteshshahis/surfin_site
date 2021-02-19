@@ -79,6 +79,14 @@ body {
 .gallery h2 {
   text-align: center;
 }
+.gallery h4 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+.gallery a {
+  color: white;
+}
 .gallery__images {
   margin-top: auto;
   display: grid;
@@ -160,6 +168,14 @@ body {
   }
   .gallery h2 {
     text-align: center;
+  }
+  .gallery h4 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .gallery a {
+    color: white;
   }
   .gallery__images {
     margin-top: auto;

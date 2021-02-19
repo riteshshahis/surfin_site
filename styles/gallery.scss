@@ -80,7 +80,6 @@ body {
         margin-left: auto; // centres block when used with right
         margin-right: auto; // centres block when used with left
         color: $secondary; 
-        
         h1{
             margin-top: 50px;
             text-align: center;
@@ -90,6 +89,17 @@ body {
         h2{
             text-align: center;
         }        
+        
+        h4 {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 40px;
+            // color: red; 
+        }
+        a {
+            color: $secondary;      
+        }
+    
 
         &__images {
             margin-top: auto;
@@ -192,6 +202,15 @@ margin-bottom:30px;
         text-align: center;
     }        
 
+    h4 {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 40px;
+    }
+    a {
+        color: $secondary;      
+    }
+
     &__images {
         margin-top: auto;
         display: grid;
@@ -207,6 +226,7 @@ margin-bottom:30px;
         height: 80px;
         margin-bottom: 10px;
         border-radius: 30%;
+
 }
 
 }    

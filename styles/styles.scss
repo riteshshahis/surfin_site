@@ -92,6 +92,9 @@ body {
             flex-direction: column;        
             justify-content: center;
             align-items: center;
+            margin-left: auto; // centres block when used with right
+            margin-right: auto; // centres block when used with left
+    
         }
         &__payNow {
             background-color: rgb(150, 177, 235);

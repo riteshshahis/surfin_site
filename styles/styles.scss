@@ -92,6 +92,7 @@ body {
             flex-direction: column;        
             justify-content: center;
             align-items: center;
+            margin-top: 10px;
             margin-left: auto; // centres block when used with right
             margin-right: auto; // centres block when used with left
     
@@ -153,19 +154,20 @@ body {
         } // Need to add payment links for each package - button added for now as static
     
         &__gallery {
-            margin-top: 20px;
             display: grid;
             grid-template-columns:1fr 1fr 1fr;
-            grid-gap: 5px;
+            grid-gap: 2px;
     
         }
     
         &__gallery > img {
-            margin: auto;
-            width: 70%;
-            height: 70%;
-            margin-top: 30px;
             border-radius: 50%;
+            margin-top:20%;
+            margin-left: 30%;
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+        
     }
     
             

@@ -73,7 +73,7 @@ body {
     .information {
         display: flex;
         flex-direction: column;
-        height: 30%;
+        height: 42%;
         width: 80%;
         border: 2px solid white;
         background-color: #88c0c4;
@@ -107,6 +107,11 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            margin-top: 0; // centres block when used with right
+            // margin-right: auto; // centres block when used with left
+            text-align: center;
+            height: 10%;
+
     
             .mail {
                 height: 50px;
@@ -157,9 +162,9 @@ body {
     
         &__gallery > img {
             margin: auto;
-            width: 80px;
-            height: 40px;
-            margin-bottom: 10px;
+            width: 70%;
+            height: 70%;
+            margin-top: 30px;
             border-radius: 50%;
     }
     
@@ -170,7 +175,7 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: 10px;
+            margin-top: 50px;
             }
     
         &__socials > img {
@@ -300,6 +305,11 @@ section {
         // font-size: 20px;
         margin-left: auto; // centres block when used with right
         margin-right: auto; // centres block when used with left
+        margin-top: 0; // centres block when used with right
+        // margin-right: auto; // centres block when used with left
+        text-align: center;
+        height: 20%;
+
     .h1 {
             font-size: 50px;
         }
